@@ -4,3 +4,7 @@
 #results{
     display:none;
 }
+#equi{
+    display: none;
+}
+*{color: green;}
