@@ -5,28 +5,13 @@
     Triangle Tracker
 </title>
 <link rel="stylesheet" type="text/css" href="css/styles.css">
+<link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Dancing+Script|Great+Vibes|Kumar+One+Outline|Pacifico&display=swap" rel="stylesheet">
     </head>
     <body>
-        <div id="container">
-<div id="row">
-<div id="jumbotron">
+        <script src="js/javascript.js"></script>
         <h1>
-                Triangle<span>Tracker</span>
+                Triangle<span >Tracker</span>
             </h1>
-</div>
-</div>
-<div id="row">
-<div id="col-md-4">
-<p>Equilateral</p>
-</div>
-<div id="col-md-4">
-<p>Isosceles</p>
-</div>
-<div id="col-md-4">
-<p>Scalene</p>
-</div>
-</div>
-<div>
     <table>
        <tr>
             <th>Tringle side</th>
@@ -34,25 +19,23 @@
        </tr>
        <tr>
            <td>Side A</td>
-           <td><input type="number" name="Side A" id="aside"></td>
+           <td><input type="number" name="Side A" id="one"></td>
        </tr>
        <tr>
             <td>Side B</td>
-            <td><input type="number" name="Side B" id="bside"></td>
+            <td><input type="number" name="Side B" id="two"></td>
         </tr>
         <tr>
                 <td>Side C</td>
-                <td><input type="number" name="Side C" id="cside"></td>
+                <td><input type="number" name="Side C" id="three"></td>
             </tr>
     </table>
     <div id="submit">
-        <button onclick="showResult">SUBMIT</button>
+            <input type="button" value="Submit" onclick="tasha()">
     </div>
-    <div id="results">
-        <p id="equi"></p>
-        <p id="iso"></p>
-        <p id="scale"></p>
-    </div>
+    <p class="final">
+      
+    </p>
 </div>
         </div>
         <div>

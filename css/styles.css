@@ -1,10 +1,13 @@
-@import url("css/bootstrap.css");
-@import url("js/javascript.js");
+table{
+    margin-left:280px;
+}
+*{
+    text-align: center;
+color:black;
+background-color: grey;
+}
 
-#results{
-    display:none;
+container row>jumbotron>h1{
+    font-size: 40px;
+    font-family: 'Great Vibes', cursive;
 }
-#equi{
-    display: none;
-}
-*{color: green;}
