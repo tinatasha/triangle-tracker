@@ -13,7 +13,7 @@
 
 ## BBD
 | Behaviour | input example | output example |
-| :---         |     :---:      |          ---: |
+| --- | --- | --- |
 | It determines the type of triangle according to the dimensions given   | 3 by 3 by 3  | Equilateral triangle   |
 | ,,    | 3 by 3 by 2      | Isosceles triangle      |
 | ,,    | 2 by 3 by 4      | Scalene triangle        |
